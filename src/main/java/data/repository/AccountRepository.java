@@ -1,8 +1,11 @@
 package data.repository;
 
+
 import data.models.Account;
 
-public interface AccountRepository {
+import java.util.Collection;
+
+public interface AccountRepository extends {
     void create(Account account);
 
     int count();
@@ -12,5 +15,7 @@ public interface AccountRepository {
     Account findById(int id);
 
     int update(Account herAccount);
+
+    Collection<Object> findAll();
 
 }

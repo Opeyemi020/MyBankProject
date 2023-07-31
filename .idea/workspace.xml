@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a5ea1a6-dc43-431a-bc5c-37aeff3f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/models/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/repository/UserRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/repository/AccountRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/repository/UserRepositoryImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/requests/CreateAccountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/responses/CreateAccountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/responses/LoginAccountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/AccountServiceImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/UserServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepositoryImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AccountServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/UserServiceImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,30 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "1b97e1b56ca838783a88aa43127ef39b",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="services" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="data.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountRepositoryImplementationTest">
+  <component name="RunManager" selected="JUnit.AccountServiceImplementationTest">
     <configuration name="AccountRepositoryImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyPersonBankProject" />
       <extension name="coverage">
@@ -84,22 +89,6 @@
       <option name="PACKAGE_NAME" value="data.repository" />
       <option name="MAIN_CLASS_NAME" value="data.repository.AccountRepositoryImplementationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountRepositoryImplementationTest.testThatAccountCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyPersonBankProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.AccountRepositoryImplementationTest" />
-      <option name="METHOD_NAME" value="testThatAccountCanBeDeleted" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,17 +125,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountRepositoryImplementationTest.testThatMultipleAccountCanBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyPersonBankProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repository.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.AccountRepositoryImplementationTest" />
-      <option name="METHOD_NAME" value="testThatMultipleAccountCanBeCreated" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServiceImplementationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImplementationTest.testThatAccountCanBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPersonBankProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServiceImplementationTest" />
+      <option name="METHOD_NAME" value="testThatAccountCanBeCreated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceImplementationTest" />
+        <item itemvalue="JUnit.AccountServiceImplementationTest.testThatAccountCanBeCreated" />
         <item itemvalue="JUnit.AccountRepositoryImplementationTest" />
         <item itemvalue="JUnit.AccountRepositoryImplementationTest.testThatCreatedAccountCanBeUpdated" />
         <item itemvalue="JUnit.AccountRepositoryImplementationTest.testThatAccountCanBeFindById" />
-        <item itemvalue="JUnit.AccountRepositoryImplementationTest.testThatAccountCanBeDeleted" />
-        <item itemvalue="JUnit.AccountRepositoryImplementationTest.testThatMultipleAccountCanBeCreated" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +176,16 @@
       <updated>1689722985115</updated>
       <workItem from="1689722987444" duration="4185000" />
       <workItem from="1689789419791" duration="9961000" />
+      <workItem from="1689889075187" duration="385000" />
+      <workItem from="1690059977911" duration="598000" />
+      <workItem from="1690230572937" duration="3298000" />
+      <workItem from="1690799152586" duration="7132000" />
+      <workItem from="1690809101559" duration="1319000" />
+      <workItem from="1690829528836" duration="1379000" />
+      <workItem from="1690831924018" duration="763000" />
+      <workItem from="1690833080684" duration="611000" />
+      <workItem from="1690836114811" duration="1366000" />
+      <workItem from="1690839254813" duration="2998000" />
     </task>
     <servers />
   </component>
