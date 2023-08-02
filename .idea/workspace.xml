@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a5ea1a6-dc43-431a-bc5c-37aeff3f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/requests/CreateAccountRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/responses/CreateAccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dtos/responses/LoginAccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/services/AccountServiceImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/services/UserServiceImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/models/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/repository/AccountRepositoryImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AccountServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Mapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "1b97e1b56ca838783a88aa43127ef39b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1b97e1b56ca838783a88aa43127ef39b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -185,7 +173,9 @@
       <workItem from="1690831924018" duration="763000" />
       <workItem from="1690833080684" duration="611000" />
       <workItem from="1690836114811" duration="1366000" />
-      <workItem from="1690839254813" duration="2998000" />
+      <workItem from="1690839254813" duration="3822000" />
+      <workItem from="1690894599373" duration="544000" />
+      <workItem from="1690899367879" duration="539000" />
     </task>
     <servers />
   </component>

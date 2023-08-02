@@ -27,23 +27,23 @@ public class Mapper {
 //        createAccountResponse.setAccountNumber(generateAccountNumber());
         createAccountResponse.setMessage(ACCOUNT_SUCCESSFULLY_CREATED);
         return account;
-//    }
-//
-//    private static String generateAccountNumber() {
-//        Account account = new Account();
-//        String phoneNumber = account.getPhoneNumber();
-//        String accountNumber = generateAccountNumberFromPhoneNumber(phoneNumber);
-//        System.out.println("Generated Account Number: " + accountNumber);
-//        return accountNumber;
-//    }
-//
-//    private static String generateAccountNumberFromPhoneNumber(String phoneNumber) {
-//         String checkIfThePhoneNumberContainsOfDigitsOnly = phoneNumber.replaceAll("\\D", "");
-//        String prefix = "ACC-";
-//        String suffix = "-X";
-//        String generatedAccountNumber;
-//        generatedAccountNumber = prefix + checkIfThePhoneNumberContainsOfDigitsOnly + suffix;
-//        return generatedAccountNumber;
+    }
+
+    private static String generateAccountNumber() {
+        Account account = new Account();
+        String phoneNumber = account.getPhoneNumber();
+        String accountNumber = generateAccountNumberFromPhoneNumber(phoneNumber);
+        System.out.println("Generated Account Number: " + accountNumber);
+        return accountNumber;
+    }
+
+    private static String generateAccountNumberFromPhoneNumber(String phoneNumber) {
+         String checkIfThePhoneNumberContainsOfDigitsOnly = phoneNumber.replaceAll("\\D", "");
+        String prefix = "ACC-";
+        String suffix = "-X";
+        String generatedAccountNumber;
+        generatedAccountNumber = prefix + checkIfThePhoneNumberContainsOfDigitsOnly + suffix;
+        return generatedAccountNumber;
 
 
     }
