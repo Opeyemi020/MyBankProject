@@ -2,7 +2,6 @@ package utils;
 
 import data.models.Account;
 import data.repository.AccountRepository;
-import data.repository.AccountRepositoryImplementation;
 import data.repository.UserRepository;
 import data.repository.UserRepositoryImplementation;
 import dtos.requests.CreateAccountRequest;
@@ -11,7 +10,7 @@ import dtos.responses.CreateAccountResponse;
 import static utils.AppUtils.ACCOUNT_SUCCESSFULLY_CREATED;
 
 public class Mapper {
-    private static final AccountRepository accountRepository = new AccountRepositoryImplementation();
+    private static final AccountRepository accountRepository;
     private static final UserRepository userRepository = new UserRepositoryImplementation();
 
     public static Account createAccountMap(CreateAccountRequest createAccountRequest) {
